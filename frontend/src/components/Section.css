@@ -1,0 +1,7 @@
+.Section{
+    Position:relative;
+    top:90px;
+    right:50px;
+    display:flex;
+    flex-direction:column;
+}
