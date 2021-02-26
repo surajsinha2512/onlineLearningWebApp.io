@@ -1,6 +1,6 @@
 # onlineLearningWebApp.io
 #hostedLink
-https://dashboard.heroku.com/apps/suraj-sinha-learnign-web-app
+https://suraj-sinha-learnign-web-app.herokuapp.com/
 
 
 To set up locally ...
