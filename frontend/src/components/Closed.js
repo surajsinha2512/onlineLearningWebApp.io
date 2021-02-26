@@ -10,7 +10,7 @@ const Closed=()=>{
          <div className="">
             <div className="" style={{color:"blue",margin:"20px"}}><b>Shareable Certificates </b></div>
             <div className="" style={{fontSize:"35px",margin:"20px"}}>Earn industry-recognized credentials</div>
-            <div className="" style={{fontSize:"20px",margin:"20px"}}>Demonstrate your new skills by sharing your Course Certificate, Professional Certificate, MasterTrack™ Certificate, or diploma with your network.
+            <div className="" style={{fontSize:"20px",margin:"20px"}}>Demonstrate your new skills by sharing your Course Certificate,<a href=""> Professional Certificate</a>,<a href="">MasterTrack™ Certificate</a> , or diploma with your network.
 
 </div>
          </div>

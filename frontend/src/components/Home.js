@@ -8,6 +8,7 @@ import University from './University';
 import Accessible from './Accessible';
 import Footer from './Footer';
 import Closed from './Closed';
+import Explore from './Explore';
 
 const Home=()=>{
 
@@ -18,7 +19,9 @@ const Home=()=>{
         <div className="divide m-2" style={{ borderBottom: "1px solid rgba(0,0,0,.12)"}}>
         <div className="row">
             <h1 clasName="col" style={{color:"blue",paddingLeft:"15px"}}><b>coursera</b></h1>
-            <div clasName="col">Explore DropDown</div>
+            <div clasName="col">
+            <Explore/>
+            </div>
             <div clasName="col">
             <form class="form1" action="" style={{margin:"7px",maxWidth:"400px"}}>
             <input type="text" placeholder="What do you want to learn" name="search2" style={{width:"300px",padding:"4px"}}></input>
