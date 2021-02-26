@@ -1,0 +1,16 @@
+.textElem{
+    font-size: 35px;
+    margin:35px;
+   
+}
+
+.Card{
+    Position:relative;
+    top:170px;
+}
+
+.cardAlign{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}

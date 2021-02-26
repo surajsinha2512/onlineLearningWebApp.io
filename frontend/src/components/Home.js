@@ -2,6 +2,11 @@ import React from 'react';
 import './Home.css';
 import Section from './Section';
 import Middle from './Middle';
+import Card from './Card';
+import Learner from './Learner';
+import University from './University';
+import Accessible from './Accessible';
+
 const Home=()=>{
 
 
@@ -15,7 +20,7 @@ const Home=()=>{
             <div clasName="col">
             <form class="form1" action="" style={{margin:"7px",maxWidth:"400px"}}>
             <input type="text" placeholder="What do you want to learn" name="search2" style={{width:"300px",padding:"4px"}}></input>
-             <button type="submit" className="bg-primary p-1 " style={{width:"45px"}}><i className="fa fa-search"></i></button>
+             <button type="submit" className="bg-primary p-1" style={{width:"45px"}}><i className="fa fa-search"></i></button>
 
             </form>
            
@@ -25,13 +30,16 @@ const Home=()=>{
             <div clasName="col" style={{margin:"10px"}}><small><a href="#" style={{color:"black"}}>For Enterprise</a></small></div>
             <div clasName="col" style={{margin:"10px"}}><small><a href="#" style={{color:"black"}}>For Student</a></small></div>
             <div clasName="col" style={{margin:"10px"}}><small><a href="#">Login</a></small></div>
-            <div clasName="col" style={{margin:"10px"}}><a href="#"><button className="p-1" style={{backgroundColor:"rgb(0, 86, 210)",color:"white"}}><b>Join for Free</b></button></a></div>
+            <div clasName="col" style={{margin:"10px"}}><a href="#"><button className="p-1" style={{backgroundColor:"rgb(0, 86, 210)",color:"white",borderRadius:"5px"}}><b>Join for Free</b></button></a></div>
         </div>
         </div>
         </div>
         <Section/>
-         <Middle/>
-
+        <Middle/>
+        <Card/> 
+        <Learner/>  
+        <University/>
+        <Accessible/>
         </>
     )
 }

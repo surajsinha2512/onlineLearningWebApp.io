@@ -1,0 +1,24 @@
+.learn{
+    background-color:rgb(235, 243, 255);
+    height:450px;
+    position:relative;
+    top:250px;
+
+}
+
+.imagePos{
+    position:relative;
+    margin:40px;
+    top:-100px;
+
+}
+
+.textSizing{
+    font-size: 40px;
+    margin:25px;
+}
+
+.textSizing2{
+    font-size: 22px;
+    margin:25px;
+}

@@ -1,0 +1,9 @@
+.Accessible{
+    Position:relative;
+    top:400px;
+}
+
+.imageAccess{
+    display:flex;
+    flex-direction: row;
+}

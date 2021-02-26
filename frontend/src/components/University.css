@@ -1,0 +1,10 @@
+.University{
+    margin:50px;
+    position: relative;
+    top:300px;
+}
+.imageValue{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
