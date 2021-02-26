@@ -6,6 +6,8 @@ import Card from './Card';
 import Learner from './Learner';
 import University from './University';
 import Accessible from './Accessible';
+import Footer from './Footer';
+import Closed from './Closed';
 
 const Home=()=>{
 
@@ -40,6 +42,8 @@ const Home=()=>{
         <Learner/>  
         <University/>
         <Accessible/>
+        <Footer/>
+        <Closed/>
         </>
     )
 }

@@ -8,3 +8,7 @@
     flex-direction:row;
     justify-content: center;
 }
+.textData{
+    display:flex;
+    flex-direction:column;
+}
